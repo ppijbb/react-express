@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form method=post action='/process/login'>
+      <h1> 로그인 페이지 </h1>
+      <p>ID   : <input type=text name=id> </p>
+      <p>PASS : <input type=password name=password> </p>
+      <p><input type=submit value="login"></p>
+  </form>
+  </body>
+</html>
